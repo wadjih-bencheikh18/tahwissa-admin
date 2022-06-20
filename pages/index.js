@@ -26,7 +26,7 @@ export default function Home() {
         <div className="z-20 fixed top-[20%] left-[35%] w-[30%] h-[60%] flex justify-center">
           <p
             onClick={() => setConnect(false)}
-            className="absolute top-5 right-5 text-white cursor-pointer text-xl"
+            className="absolute top-8 right-6 text-white cursor-pointer text-xl"
           >
             x
           </p>
