@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="mt-24">
           <a
             href="/"
-            className="bg-[#8168DD] rounded-lg py-2 px-6 text-xl flex items-center"
+            className="bg-[#8168DD] shadow-md rounded-lg py-2 px-6 text-xl flex items-center"
           >
             Commencer
             <svg
