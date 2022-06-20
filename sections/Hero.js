@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="z-10 text-white font-medium text-[40px] w-[500px] text-center flex flex-col justify-center items-center">
         Votre guide touristique Algérien
         <div className="mt-24">
-          <a
+          <div
             href="/"
             className="bg-[#8168DD] shadow-md rounded-lg py-2 px-6 text-xl flex items-center"
           >
@@ -26,7 +26,7 @@ export default function Hero() {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </div>
         </div>
       </div>
     </div>
