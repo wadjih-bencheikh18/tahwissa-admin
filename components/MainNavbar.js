@@ -1,27 +1,27 @@
 import logo from "../images/logo.png";
 import Image from "next/image";
 
-export default function MainNavbar() {
+export default function MainNavbar({ setConnect }) {
   const sections = [
-    <a key={0} href="/" className="hover:text-[#8168DD] ml-16">
+    <p key={0} href="/" className="hover:text-[#8168DD] ml-16 cursor-pointer">
       Accueil
-    </a>,
-    <a key={1} href="/" className="hover:text-[#8168DD]">
+    </p>,
+    <p key={1} href="/" className="hover:text-[#8168DD] cursor-pointer">
       Sections
-    </a>,
-    <a key={2} href="/" className="hover:text-[#8168DD]">
+    </p>,
+    <p key={2} href="/" className="hover:text-[#8168DD] cursor-pointer">
       A propos
-    </a>,
-    <a key={3} href="/" className="hover:text-[#8168DD]">
+    </p>,
+    <p key={3} href="/" className="hover:text-[#8168DD] cursor-pointer">
       Contact
-    </a>,
-    <a
+    </p>,
+    <p
+      onClick={() => setConnect(true)}
       key={4}
-      href="/"
-      className="text-[#8168DD] hover:text-white hover:bg-[#8168DD] border border-[#8168DD] rounded-md p-2 ml-10"
+      className="text-[#8168DD] cursor-pointer hover:text-white hover:bg-[#8168DD] border border-[#8168DD] rounded-md p-2 ml-10"
     >
       S'authentifier
-    </a>,
+    </p>,
   ];
 
   const NavbarLinks = sections.map((section, i) => (
