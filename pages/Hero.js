@@ -3,7 +3,7 @@ import hero from "../images/mkm2.jpg";
 export default function Hero() {
   return (
     <div className="h-screen flex items-center justify-center">
-      <div className="absolute mt-24 z-0 brightness-50">
+      <div className="absolute mt-24 -z-10 brightness-50">
         <Image src={hero} alt="" />
       </div>
       <div className="z-10 text-white font-medium text-[40px] w-[500px] text-center flex flex-col justify-center items-center">
