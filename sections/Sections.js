@@ -6,48 +6,46 @@ import Image from "next/image";
 export default function Sections() {
   return (
     <div className="h-screen flex flex-col items-center bg-white">
-      <div className="text-[40px] font-bold p-12">Sections</div>
+      <div className="text-[40px] font-bold pt-12 pb-6">Sections</div>
       {/* cards */}
-      <div className="grid grid-cols-2 gap-16 px-28">
+      <div className="grid grid-cols-2 gap-10 px-52">
         {/* card */}
-        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
+        <div className="cursor-pointer grid grid-rows-3 text-center border rounded-2xl shadow-md p-6 justify-center items-center space-y-2">
           <div className="font-medium text-2xl">
             Carte numérique intéractive
           </div>
-          <div className="w-14">
+          <div className="w-14 justify-self-center">
             <Image src={map} />
           </div>
           <div className="">
-            La carte touristique numérique permet de connaitre les sites
-            touristiques et endroits intéressants à visiter d'une ville ou d'une
-            région.
+            Les sites touristiques et endroits intéressants à visiter
           </div>
         </div>
         {/* card */}
-        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
+        <div className="cursor-pointer grid grid-rows-3 border rounded-2xl text-center shadow-md p-6 items-center space-y-2">
           <div className="font-medium text-2xl">Evènements</div>
-          <div className="w-14">
+          <div className="w-14 justify-self-center">
             <Image src={calendar} />
           </div>
-          <div className="">descr</div>
+          <div className="">La liste des évènements</div>
         </div>
         {/* card */}
-        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
+        <div className="cursor-pointer grid grid-rows-3 border rounded-2xl text-center shadow-md p-6 items-center space-y-2">
           <div className="font-medium text-2xl">Itinéraires touristiques</div>
-          <div className="w-14">
+          <div className="w-14 justify-self-center">
             <Image src={road} />
           </div>
-          <div className="">descr</div>
+          <div className="">
+            La découverte de lieux touristiques en traçant un parcours
+          </div>
         </div>
         {/* card */}
-        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
-          <div className="font-medium text-2xl">
-            Visite en ligne des lieux touristiques
-          </div>
-          <div className="w-20">
+        <div className="cursor-pointer grid grid-rows-3 border rounded-2xl text-center shadow-md p-6 items-center space-y-2">
+          <div className="font-medium text-2xl">Visite en ligne</div>
+          <div className="w-20 justify-self-center">
             <Image src={virtual} />
           </div>
-          <div className="">descr</div>
+          <div className="">La visite virtuelle des lieux touristiques</div>
         </div>
       </div>
     </div>

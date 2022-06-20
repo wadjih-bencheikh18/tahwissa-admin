@@ -2,26 +2,26 @@ export default function Login() {
   return (
     <div className="w-full max-w-md m-auto bg-[#8168DD] bg-opacity-95 text-white rounded-3xl shadow-default py-10 px-16">
       <h1 className="text-2xl font-medium text-primary mt-4 mb-12 text-center">
-        Se connecter
+        S'authentifier
       </h1>
 
       <form>
         <div>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">E-mail</label>
           <input
             type="email"
             className="w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4"
             id="email"
-            placeholder="Your Email"
+            placeholder="Votre e-mail"
           />
         </div>
         <div>
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Mot de passe</label>
           <input
             type="password"
             className="w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4"
             id="password"
-            placeholder="Your Password"
+            placeholder="Votre mot de passe"
           />
         </div>
 
