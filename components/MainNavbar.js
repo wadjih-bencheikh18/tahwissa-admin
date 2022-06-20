@@ -32,9 +32,7 @@ export default function MainNavbar({ setConnect }) {
       <div className="ml-24 flex items-center justify-between font-medium mr-24">
         {/* logo */}
         <div className="w-14 m-1 pt-1">
-          <a href="/">
-            <Image src={logo} alt="logo" />
-          </a>
+          <Image src={logo} alt="logo" className="cursor-pointer" />
         </div>
         {/* Navbar links */}
         <nav className="flex space-x-24 items-center h-12">{NavbarLinks}</nav>

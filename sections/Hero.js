@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="z-10 text-white font-medium text-[40px] w-[500px] text-center flex flex-col justify-center items-center">
         Votre guide touristique Algérien
         <div className="mt-24">
-          <div className="bg-[#8168DD] shadow-md rounded-lg py-2 px-6 text-xl flex items-center cursor-pointer">
+          <div className="cursor-pointer bg-[#8168DD] shadow-md rounded-lg py-2 px-6 text-xl flex items-center">
             Commencer
             <svg
               xmlns="http://www.w3.org/2000/svg"

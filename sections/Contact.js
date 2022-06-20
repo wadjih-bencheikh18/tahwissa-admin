@@ -8,18 +8,10 @@ export default function Contact() {
     <div className="flex flex-col items-center bg-white mb-20">
       <div className="text-[40px] font-bold p-12">Contact</div>
       <div className="flex gap-x-24">
-        <a href="/">
-          <Image src={codex} />
-        </a>
-        <a href="/">
-          <Image src={li} />
-        </a>
-        <a href="/">
-          <Image src={fb} />
-        </a>
-        <a href="/">
-          <Image src={ig} />
-        </a>
+        <Image src={codex} className="cursor-pointer" />
+        <Image src={li} className="cursor-pointer" />
+        <Image src={fb} className="cursor-pointer" />
+        <Image src={ig} className="cursor-pointer" />
       </div>
     </div>
   );
