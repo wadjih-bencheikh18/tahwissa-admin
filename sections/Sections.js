@@ -8,12 +8,9 @@ export default function Sections() {
     <div className="h-screen flex flex-col items-center bg-white">
       <div className="text-[40px] font-bold p-12">Sections</div>
       {/* cards */}
-      <div className="grid grid-cols-2 gap-16">
+      <div className="grid grid-cols-2 gap-16 px-28">
         {/* card */}
-        <a
-          href="/"
-          className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8"
-        >
+        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
           <div className="font-medium text-2xl">
             Carte numérique intéractive
           </div>
@@ -25,34 +22,25 @@ export default function Sections() {
             touristiques et endroits intéressants à visiter d'une ville ou d'une
             région.
           </div>
-        </a>
+        </div>
         {/* card */}
-        <a
-          href="/"
-          className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8"
-        >
+        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
           <div className="font-medium text-2xl">Evènements</div>
           <div className="w-14">
             <Image src={calendar} />
           </div>
           <div className="">descr</div>
-        </a>
+        </div>
         {/* card */}
-        <a
-          href="/"
-          className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8"
-        >
+        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
           <div className="font-medium text-2xl">Itinéraires touristiques</div>
           <div className="w-14">
             <Image src={road} />
           </div>
           <div className="">descr</div>
-        </a>
+        </div>
         {/* card */}
-        <a
-          href="/"
-          className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8"
-        >
+        <div className="border rounded-2xl shadow-md p-6 flex flex-col items-center space-y-8">
           <div className="font-medium text-2xl">
             Visite en ligne des lieux touristiques
           </div>
@@ -60,7 +48,7 @@ export default function Sections() {
             <Image src={virtual} />
           </div>
           <div className="">descr</div>
-        </a>
+        </div>
       </div>
     </div>
   );
